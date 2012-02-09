@@ -3,12 +3,15 @@ Ext.Loader.setConfig({
 });
 
 Ext.application({
-    name: 'v2',
+    name: 'Hello-World',
 
     launch: function() {
         Ext.QuickTips.init();
 
-Ext.Msg.alert('greeting msg', 'Hello-World');
+        var cmp1 = Ext.create('Hello-World.window', {
+            renderTo: Ext.getBody()
+        });
+        cmp1.show();
 
     }
 });
