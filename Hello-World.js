@@ -8,7 +8,7 @@ Ext.application({
     launch: function() {
         Ext.QuickTips.init();
 
-Ext.Msg.alert('greeting msg', 'Hello-World');
+Ext.Msg.alert('greeting message', 'Hello-World');
 
     }
 });
